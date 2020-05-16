@@ -1,0 +1,2 @@
+- In master-slave to decrease the probability of master crashing the master node can have more expensive hardware like a RAID
+-  if high availability is a concern, a peer-to-peer network might be the best solution. If you can manage your big data using batch jobs that run in off hours, then the simpler master-slave model might be best.
