@@ -15,3 +15,5 @@ Applications:
 - Elastically adding/removing database servers
 - Elastically adding/removing cache servers
 
+
+References: https://www.acodersjourney.com/system-design-interview-consistent-hashing/
