@@ -1,6 +1,6 @@
 - Partitioning: Consistent hashing
 - Search for a value: Bloom filters
-- Consensus: Paxos protocol, 2phase commits, 3 phase commits
+- Consensus: [Paxos protocol, 2phase commits, 3 phase commits](https://stackoverflow.com/q/21424962/6407858)
 - Communication: Gossip
 
 
