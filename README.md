@@ -5,3 +5,5 @@
 - In databses for scaling master-slave architecture we can use sharding.
 
 - When thinking about servers you want to use different concepts like distributed using consistent hashing or using sharded for handling different requests.
+
+- System design doesn't mean distributed systems. Distributed systems is a type of system which comes into picture when we start scaling and thus bring multiple nodes into picture.
