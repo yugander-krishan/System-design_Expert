@@ -5,3 +5,5 @@
 
 
 - [Difference between gossip and paxos](https://qr.ae/pNykTK)
+
+- [2phased vs 3 phased commits](https://stackoverflow.com/q/21424962/6407858)
