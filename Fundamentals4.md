@@ -23,3 +23,5 @@
 - Peer to peer / no master:
   - It can cause problem with respect to both read and writes as writes can read both have concurrency issues
   
+
+References: https://medium.com/hackernoon/fundamentals-of-system-design-part-4-d6a62f3fa779
