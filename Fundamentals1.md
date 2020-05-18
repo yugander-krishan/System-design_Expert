@@ -6,7 +6,7 @@ A good system design is concerned with 3 things:
 
 - Scalability:
   - Measure of how well system performs under load. Load here can refer to read & write requests
-  - Performance is also part of scalability. Performance can be thought of as the system’s operating characteristic when system’s load parameter is changed. Can be measured by for example average response time under different loads or how much memory, cpu cycles etc. are being used or how many database read, writes etc. are being done.
+  - Performance can be thought of as the system’s operating characteristic when system’s load parameter is changed. Can be measured by for example average response time under different loads or peak reads/writes or how much memory, cpu cycles etc. are being used at avg or at peak or how many database read, writes etc. are being done.
   
 - Maintainability: 
   - How easy to read and add new features to code. 
