@@ -2,7 +2,7 @@
 - Replication means making your data redundant using multile machines which can lead to high-availability also
 - one of the most imortant thing to consider is **replication lag**
 
-- There are various relication configurations:
+- There are various replication configurations:
   - Master-slave
   - Multi-master
   - No master/ peer to peer
