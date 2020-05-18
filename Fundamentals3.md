@@ -15,7 +15,7 @@
 Traditional indexing B Trees vs Log Structured Merge Trees:
 - Reads:
   - Traditional indexing B trees are fatser inm reads as data is present at a speciifc location only. Also B trees are sorted balanced trees like AVL or Red-Black trees
-  - Log Structured Merge Trees are slower for reads as data if not presnt in memtables needed to be searched in all the SStables of a partition whcih may make reads a bit slowere but still fatser compared to manhy others
+  - Log Structured Merge Trees are slower for reads as data if not presnt in memtables needed to be searched in all the SStables of a partition whcih may make reads a bit slowere but still fatser compared to manhy others as it makes use of **Bloom-filters**
   
 - Writes:
   - Traditional indexing B trees are slower in writes as they need to **seek** the specific key where the data needs to be stored. Also we know seek on discs is slower in nature. Along with that B trees stores data in WAL(write-ahead logs) which also slows down the writes
