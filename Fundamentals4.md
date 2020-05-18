@@ -3,6 +3,8 @@
     - You want to keep data geographically close to users
     - Balance read/write across multiple machines to prevent throttling of a single database server
     - Build redundancies within your system
+    
+- There are a lot of interesting subtleties involved in replications that are concerned with durability guarantees and eventual consistencies.
 - Replication means making your data redundant using multile machines which can lead to high-availability also
 - one of the most imortant thing to consider is **replication lag**
 
