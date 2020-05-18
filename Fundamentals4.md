@@ -12,7 +12,7 @@
   - writes Can be synchronous as well as asynchronous
   - with synchronous writes a master write and pass the data to slaves and wait for acknowledgement. But it can cause problems if connectivity to one node is affected due to low-internet or netwrok partition
   - Async writes are very fast. But then the issue with the replication lag. So after write if read goes to the salve where data is not yet replicated will cause problems. In order to solve this problem you can send read requests initially to master node.
-  - Async writes have one more problem that is if one read-request goes to one slave where data has been replicated but if second request goes to other slave where data is still not replicated so in order to solve this problem send request from same client to same slave.
+  - Async writes have one more problem that is if one read-request goes to one slave where data has been replicated but if second request goes to other slave where data is still not replicated so in order to solve this problem send request from same client to same slave initially.
   
 - Multi-master:
   - Pros:
