@@ -18,7 +18,7 @@
   - Pros:
     - It leads to better durability as well as availability. As if one master goes down then second amster is stiil there
   - Cons:
-    - Problem with concurrent writes(same time inserts, updates, deletes)
+    - Problem with concurrent writes(same time multiple inserts, updates, deletes)
     
 - Peer to peer / no master:
   - It can cause problem with respect to both read and writes as writes can read both have concurrency issues
