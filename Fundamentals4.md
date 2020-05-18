@@ -1,4 +1,8 @@
 - One of the most important thing for scalability is replication
+  - Others reasons include:
+    - You want to keep data geographically close to users
+    - Balance read/write across multiple machines to prevent throttling of a single database server
+    - Build redundancies within your system
 - Replication means making your data redundant using multile machines which can lead to high-availability also
 - one of the most imortant thing to consider is **replication lag**
 
